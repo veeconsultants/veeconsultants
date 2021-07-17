@@ -1,0 +1,24 @@
+--issues
+  select * from "jiraissue" --drop issues that are archived if needed
+--epics=issuetype=10000
+  select *
+  from (select * from "jiraissue" where "issuetype"=10000) i
+  left join "project" p on p.id=i.project
+  left join (collect epic_names from "customfieldvalue" where "customfield"=10005)
+   and p."id" not in (select id from archived_project)
+--users
+  select *
+  from user u
+  left join "app_user" au on 
+  left join "propertyentry" pe on pe."entity_id"=u."id"
+  left join "propertystring" ps on ps."id"=pe."id"
+--projects
+
+--archived projects
+
+--users
+
+--sprints
+
+--boards
+
