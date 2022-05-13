@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Vishwajeet Singh
 - 👀 I’m interested in any thing and every thing about all kinds of Data
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
+- 🌱 I’m currently learning about the evolution of VR worlds and the relevant technologies.
+- 💞️ Never hesitate to connect with me and see how and where we can collaborate on!
 - 📫 How to reach me ...
 
 <!---
